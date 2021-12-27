@@ -1,0 +1,196 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+@font-face {
+	font-family: Sora;
+	src: url(/asset/Sora-VariableFont_wght.ttf);
+}
+.container{
+	background-color: rgba(229, 229, 229, 0.57);
+	overflow: auto;
+}
+.body{
+	background-color: rgba(229, 229, 229, 0.57);
+}
+.header{
+    display: flex;
+    justify-content: end;
+    background-color: white;
+}
+.header img{
+    width: 263px;
+}
+
+/* chat */
+.chat{
+    margin: auto;
+    max-width: 1000px;
+    padding: 0 20px;
+	float: none;
+	font-family: sora;
+}
+.chat h1{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+	text-align: left;
+	padding: 10px;
+	margin: 10px 0;
+    color: #1C418C;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* chat mahasiswa */
+.mahasiswa {
+    border: 2px solid #dedede;
+    background-color: #99CCFF;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    height: 50px;
+    width: 100%;
+}
+/* chat admin */
+.admin {
+    border: 2px solid #dedede;
+    background-color: #5A98BF;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    height: 50px;
+    width: 100%;
+}
+.mahasiswa::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.time-right {
+    float: right;
+    color: whitesmoke;
+	padding: 10px;
+	font-family: sora;
+} 
+.time-left {
+    float: left;
+    color: whitesmoke;
+	padding: 10px;
+	margin: 9px 0;
+	font-family: sora;
+}
+
+
+input[type=text] textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+	font-family: sora;
+}
+.teks textarea{
+	width: 68%;
+	margin-top: 20px;
+}
+.teks a img{
+    padding: 10px;
+    margin: 10px 0;
+    height: auto;
+    width: 50px;
+}
+
+.menu{
+	background-color: #1C418C;
+	overflow: hidden;
+	float: left;
+	height: 100%;
+	width: 250px;
+}
+.menu h1{
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	
+	padding-left: 14px;
+	padding-top: 18px;
+
+	color: #99CCFF;
+}
+.menu ul li a{
+	
+	display: block;
+	color: #99CCFF;
+	text-align: left;
+	padding: 14px 16px;
+	padding-top: 30px;
+	text-decoration: none;
+	font-size: 20px;
+}
+.menu a:hover{
+	color: whitesmoke;
+}
+.menu a.active{
+	color: white;
+}
+
+/* clearfix */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+.cf {
+    *zoom: 1;
+}

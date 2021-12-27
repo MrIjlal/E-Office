@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Pesan</title>
+        <link rel="stylesheet" href="/asset/css/chat.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="menu cf" id="menusmp">
+                <h1>E-Office</h1>
+                <ul>
+                    <li><a href="beranda.html">Beranda</a></li>
+                    <li><a href="pengajuan1.html" >Pengajuan</a></li>
+                    <li><a href="chat.html" class="active">Pesan</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                </ul>
+            </div>
+            <div class="header">
+                <img src="/asset/images/profil.svg" alt="Profil">
+            </div>
+           
+        <div class="chat">
+            <h1>Pesan</h1>
+            <div class="mahasiswa">
+                <p>Halo, maaf mengganggu waktunya. apakah saya dapat menerima surat  yang sedang diproses lebih cepat?</p>
+                <span class="time-right">01.00 PM</span>
+            </div>
+            <div class="admin">
+                <p>Maksimal tanggal 15 November</p>
+                <span class="time-left">01.05 PM</span>
+            </div>
+            <div class="mahasiswa">
+                <p>Untuk prosesnya sudah sampai mana ya?</p>
+                <span class="time-right">01.06 PM</span>
+            </div>
+            <div class="admin">
+                <p>Menunggu tanda tangan KAPRODI</p>
+                <span class="time-left">01.08 PM</span>
+            </div>
+        </div>
+        <div class="teks">
+            <textarea name="pesan" id="pesan" placeholder="Tulis pesan" cols="30" rows="10"></textarea>
+            <a href="#" onclick="kirim()"><img class="kirim" src="/asset/images/kirim.svg" alt=""></a>
+        </div>
+    </body>
+</html>
