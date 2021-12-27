@@ -1,0 +1,234 @@
+html {
+    position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #FFFFFF;
+}
+
+.profil {
+    position: absolute;
+width: 202px;
+height: 79px;
+left: 1220px;
+top: 23px;
+}
+
+.menu .latar{
+    position: absolute;
+width: 344px;
+height: 1024px;
+left: 0px;
+top: 0px;
+}
+
+.menu .tutup{
+    position: absolute;
+width: 76px;
+height: 73px;
+left: 306px;
+top: 29px;
+}
+
+.menu h1{
+    position: absolute;
+width: 201px;
+height: 60px;
+left: 71px;
+top: 36px;
+
+font-family: Sora;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 60px;
+
+color: #99CCFF;
+}
+
+.beranda{
+    position: absolute;
+width: 126px;
+height: 38px;
+left: 27px;
+top: 161px;
+
+font-family: Sora;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 38px;
+text-decoration: none;
+
+/* identical to box height */
+
+
+color: #99CCFF;
+transition: 00.3ms;
+
+}
+
+.beranda :hover{
+    color: #FFFFFF;
+}
+
+.pengajuan{
+    position: absolute;
+width: 159px;
+height: 38px;
+left: 27px;
+top: 236px;
+
+font-family: Sora;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 38px;
+text-decoration: none;
+/* identical to box height */
+
+
+color: #99CCFF;
+transition: 00.3ms;
+
+}
+
+.pengajuan :hover{
+    color: #FFFFFF;
+}
+
+.pembuatan{
+    position: absolute;
+width: 173px;
+height: 38px;
+left: 27px;
+top: 311px;
+
+font-family: Sora;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 38px;
+text-decoration: none;
+
+/* identical to box height */
+
+
+color: #99CCFF;
+transition: 00.3ms;
+}
+
+.pesan a{
+    position: absolute;
+width: 90px;
+height: 38px;
+left: 27px;
+top: 386px;
+
+font-family: Sora;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 38px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.pembuatan :hover{
+    color: #FFFFFF;
+}
+
+.template{
+    position: absolute;
+width: 230px;
+height: 38px;
+left: 27px;
+top: 461px;
+
+font-family: Sora;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 38px;
+text-decoration: none;
+/* identical to box height */
+
+
+color: #99CCFF;
+transition: 00.3ms;
+
+}
+
+.template :hover{
+    color: #FFFFFF;
+}
+
+.logout{
+    position: absolute;
+width: 122px;
+height: 38px;
+left: 27px;
+top: 536px;
+
+font-family: Sora;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 38px;
+text-decoration: none;
+/* identical to box height */
+
+
+color: #99CCFF;
+transition: 00.3ms;
+
+}
+
+.logout :hover{
+    color: #FFFFFF;
+}
+
+.latar{
+    position: absolute;
+width: 1096px;
+height: 897px;
+left: 344px;
+top: 127px;
+}
+
+.detail1{
+    position: absolute;
+width: 1060px;
+height: 850px;
+left: 362px;
+top: 161px;
+}
+
+.detail{
+    position: absolute;
+width: 322px;
+height: 274px;
+left: 382px;
+top: 371px;
+}
+
+.btn_btn-primary{
+    position: absolute;
+width: 207px;
+height: 49px;
+left: 892px;
+top: 888px;
+}
+
+.ketik{
+    position: absolute;
+width: 622px;
+height: 75px;
+left: 715px;
+top: 926px;
+
+background: #5A98BF;
+border-radius: 50px;
+}

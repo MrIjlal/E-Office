@@ -113,7 +113,7 @@ input[type=text], input[type=password] {
     word-spacing: 5px;
   }
 
-  button {
+  a {
 	
     background-color: #5A98BF;
     color: white;
@@ -125,6 +125,6 @@ input[type=text], input[type=password] {
 	
   }
   
-  button:hover {
+  a :hover{
     opacity: 0.8;
   }
